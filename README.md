@@ -1,4 +1,4 @@
-# mixedMessages
+# randomQuoteGenerator
 
 Intro:
 

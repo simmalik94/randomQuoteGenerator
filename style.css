@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "ubuntu", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #22313f;
+}
+h1 {
+  color: #fff;
+  margin: 100px;
+}
+
+.quote-container {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+}
+.quote {
+  margin-top: 10px;
+  width: auto;
+}
+button {
+  background-color: #22313f;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 15px;
+  color: white;
+  border-top: 1px solid red;
+}
+button:hover {
+  cursor: pointer;
+}
